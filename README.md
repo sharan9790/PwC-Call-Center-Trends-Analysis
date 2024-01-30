@@ -13,11 +13,18 @@ Request mail
 
 From Claire’s mail, her KPIs includes (but not limited to):
 
-Overall customer satisfaction
-Overall calls answered and abandoned
-Calls by time
-Average speed of answer
-Agents performance quadrant.
+•	Overall customer satisfaction
+
+•	Overall calls answered and abandoned
+
+•	Calls by time
+
+•	Average speed of answer
+
+•	Agents performance quadrant.
+
+
+
 Tools Used to Carry Out This Project
 Microsoft Excel: which I used primarily to convert the data into a proper table.
 
