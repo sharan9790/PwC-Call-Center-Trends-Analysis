@@ -1,64 +1,69 @@
-PwC PowerBI Experience Call Center Trends Analysis
+# PwC PowerBI Experience Call Center Trends Analysis
+
 I participated in the open-access PwC Data Analytics Virtual Experience Program with Forage. Where I worked as a business data analyst to help an organization named “PhoneNow” to analyze their data and help them understand how they can leverage on their massive amount of data.
 
-I worked on this project by following the Pwc virtual Experience on power BI at Forage Link here
+
+## Project Overview & Business Problem
 
 
 I am working as a data analyst intern for PwC Switzerland when one of our important clients, a big telecom company reach out to me, to help visualize their data. Claire, the call center manager at PhoneNow wants me to help bring out insight from their call center data, she wants to know the total number of calls answered and abandoned, speed of answer, length of calls, overall customer satisfaction, and most importantly, she’s interested in knowing the accurate overview of long-term trends in customers and agent’s behavior.
 
-Request mail
+### Request mail
 
-![Pwc call centre Email image](https://github.com/sharan9790/PwC-Call-Center-Trends-Analysis/assets/143926196/67de1354-5f54-4869-a0b3-74c0749192af)
+![Pwc call centre Email image](https://github.com/sharan9790/PwC-Call-Center-Trends-Analysis/assets/143926196/cfef4311-de33-442e-b59d-41b06dc51a5b)
 
 
 From Claire’s mail, her KPIs includes (but not limited to):
 
-•	Overall customer satisfaction
+- Overall customer satisfaction
+- Overall calls answered and abandoned
+- Calls by time
+- Average speed of answer
+- Agents performance quadrant.
 
-•	Overall calls answered and abandoned
+### Tools Used to Carry Out This Project
 
-•	Calls by time
+- Microsoft Excel: which I used primarily to convert the data into a proper table.
 
-•	Average speed of answer
+- Microsoft PowerBI: As a PowerBI specialist, I carried out my data cleaning using the power query editor in PowerBI. I also carried out the visualization showing my insights (focusing on my KPIs) using the Data Analysis Expression (DAX) language for creating and calculating columns, measures and custom tables.
 
-•	Agents performance quadrant.
+### Data Cleaning Process
+
+- Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect, incomplete, irrelevant, duplicate, or improperly formatted.
+
+- Data cleaning plays an important role in the analytical process by making sure that the answers we uncover are reliable, accurate, and of high quality.
+
+- Below are the data cleaning process I carried out using the power query editor in PowerBI:
+
+- I started by importing my data from Excel into PowerBi, however, instead of loading my data directly for visualization, I transform the data by loading it into the power query editor for cleaning.
+
+- One of the reasons why we do data cleaning is to remove incomplete data. However, looking at my data, the incomplete data (Null) have values they represent i.e. they are related to either calls that are not answered (N) or calls that the agents are not able to resolve, hence, removing those data will limited the accuracy of my data and in turn the credibility of my analysis.
+
+### Analysis & Insight
+
+- The call center has 8 agents in total. With Jim having the highest total answered calls 536 and stewart with the lowest at 477.
+
+- From the total of 5000(100%) calls that came in, the agents were able to answered 4054(81%) calls indicating that 946(19%) were abandoned.
+
+- Out of the 4054(81%) calls answered, the agents were able to resolved 3646(73%) of the problem (customer concern) while they were not able to resolve those issues 408(27%) times.
+
+- The agents average speed of answering calls was 54.75 seconds.
+
+- Number of calls per months on January Number of calls answered 1455 and were abandoned calls is 317. February Number of calls answered 1298 and were abandoned calls is 318 and March Number of calls answered 1301 and were abandoned calls is 311.
+
+## Overall Visualization.
+
+![Screenshot 2024-01-30 231041](https://github.com/sharan9790/PwC-Call-Center-Trends-Analysis/assets/143926196/a16eade6-1515-495a-81f6-d2dcb419790d)
+
+
+### Recommendations
+
+- With only 4.5 out of Target Value Satisfaction 2.7 of the customer being satisfied, the call center needs to invest in training the agents and most importantly, organize meetings with the agents to understand (and provide solutions) to the problems they might be facing.
+
+- Out of every 10 calls that came in, the agents abandoned 1, this can be improved on. I will suggest employing 1 or 2 more agent.
+
+- With 27%(408) issues not being able to be resolved, this indicates that the agents need more knowledge about the business / and its different services. I will advise the management to organize a workshop for the agents.
 
 
 
-Tools Used to Carry Out This Project
-Microsoft Excel: which I used primarily to convert the data into a proper table.
 
-Microsoft PowerBI: As a PowerBI specialist, I carried out my data cleaning using the power query editor in PowerBI. I also carried out the visualization showing my insights (focusing on my KPIs) using the Data Analysis Expression (DAX) language for creating and calculating columns, measures and custom tables.
-
-Data Cleaning Process
-Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect, incomplete, irrelevant, duplicate, or improperly formatted.
-
-Data cleaning plays an important role in the analytical process by making sure that the answers we uncover are reliable, accurate, and of high quality.
-
-Below are the data cleaning process I carried out using the power query editor in PowerBI:
-
-I started by importing my data from Excel into PowerBi, however, instead of loading my data directly for visualization, I transform the data by loading it into the power query editor for cleaning.
-
-One of the reasons why we do data cleaning is to remove incomplete data. However, looking at my data, the incomplete data (Null) have values they represent i.e. they are related to either calls that are not answered (N) or calls that the agents are not able to resolve, hence, removing those data will limited the accuracy of my data and in turn the credibility of my analysis.
-
-Analysis & Insight
-The call center has 8 agents in total. With Jim having the highest total answered calls 536 and stewart with the lowest at 477.
-
-From the total of 5000(100%) calls that came in, the agents were able to answered 4054(81%) calls indicating that 946(19%) were abandoned.
-
-Out of the 4054(81%) calls answered, the agents were able to resolved 3646(73%) of the problem (customer concern) while they were not able to resolve those issues 408(27%) times.
-
-The agents average speed of answering calls was 54.75 seconds.
-
-Number of calls per months on January Number of calls answered 1455 and were abandoned calls is 317. February Number of calls answered 1298 and were abandoned calls is 318 and March Number of calls answered 1301 and were abandoned calls is 311.
-
-Overall Visualization.
-
-![Screenshot 2024-01-30 231041](https://github.com/sharan9790/PwC-Call-Center-Trends-Analysis/assets/143926196/9915f5c8-9e47-49ec-beb8-909ef4e30f56)
-
-Recommendations
-With only 4.5 out of Target Value Satisfaction 2.7 of the customer being satisfied, the call center needs to invest in training the agents and most importantly, organize meetings with the agents to understand (and provide solutions) to the problems they might be facing.
-
-Out of every 10 calls that came in, the agents abandoned 1, this can be improved on. I will suggest employing 1 or 2 more agent.
-
-With 27%(408) issues not being able to be resolved, this indicates that the agents need more knowledge about the business / and its different services. I will advise the management to organize a workshop for the agents.
